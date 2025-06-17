@@ -1027,7 +1027,7 @@ require('lazy').setup({
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 
-require 'colors.rukiyo'
+-- require 'colors.rukiyo'
 
 vim.keymap.set('n', '<Leader>]', '<cmd>tabnext<CR>')
 vim.keymap.set('n', '<Leader>[', '<cmd>tabprev<CR>')
